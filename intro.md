@@ -65,3 +65,95 @@ Remember to save your progress
 ---
 
 ### 2.1.2 Create Order Info Input
+
+- Navigate back to the model by click on the Model tab
+- From the left menu, drag a DMN input data to the canvas
+
+![DMNInputMenu]({% image_path m2p1i11_DMNInputMenu.png %})}
+
+- Give it the name **Order Information**, this has to be the same name as the input you provided to the **Auto Approval** node in the previous model
+
+
+---
+![Info]({% image_path m0_info.png %}){:align="left"} 
+
+Unlike many traditional expression languages, Friendly Enough Expression Language (FEEL) supports spaces and a few special characters as part of variable and function names
+
+---
+
+- Open **Diagram Properties** for this input, click the **Data Type** drop down list and select the new data type we just imported: **OrderInfo**
+
+![OrderInfoInput]({% image_path m2p1i12_OrderInfoInput.png %})}
+
+
+---
+![Info]({% image_path m0_info.png %}){:align="left"} 
+
+You can change the background and font for each element in DMN, using the Background details and Font settings sections under the Properties pane. This only enhances the visibility of the model, but has no impact on the behaviour of the model
+
+---
+
+### 2.1.3 Create Price Tolerance Business Knowledge Model
+
+- We now want to create a **Business Knowledge model** that calculates the price tolerance based on the urgency of the order
+
+
+---
+![Info]({% image_path m0_info.png %}){:align="left"} 
+
+A Business Knowledge Model element (BKM) represents a reusable piece of decision logic. Typically, it is connected to a Decision element which invokes the BKM and passes on a set of inputs. The BKM, using it's internal logic, evaluates an output which is passed back to the Decision.
+
+---
+
+![BKM]({% image_path m2p1i13_BKM.png %})}
+
+- Click on the **Price Tolerance** node, and the click on the **Edit** button to start editing the node
+
+![BKMEdit]({% image_path m2p1i14_BKMEdit.png %})}
+
+- You now see the boxed expression of this node, feel free to resize it to your convinience
+
+![PriceToleranceBoxedEx]({% image_path m2p1i15_PriceToleranceBoxedEx.png %})}
+
+- Click on the **Edit Parameters** link, an editor will open. 
+- Click on **Add parameter** button. Name the parameter **order info**  and set the type to **OrderInfo**
+- Click anywhere outside the **Edit Parameters** dialog to return to the **Price Tolerance Function editor**
+
+![PriceTolerance_Input]({% image_path m2p1i16_PriceTolerance_Input.png %})}
+
+- Right click in the empty white cell under the parameter definitions and select **Clear**. The text **Select expression** will appear in the cell.
+- Click on the cell and select **Decision Table**.
+
+![DecisionTableExpression]({% image_path m2p1i17_DecisionTableExpression.png %})}
+
+- Click in the header of the first column (input-1) to add an input to decision table
+- The name of the input clause is **order info.urgency**, which references the urgency attribute of the order information parameter. 
+- Set the type to **Urgency**, which references the **urgency** enumeration we created earlier.
+
+![orderinfo_urgency]({% image_path m2p1i18_orderinfo_urgency.png %})}
+
+- Set the name of the output clause to **Price Tolerance** and data type to **number**. Leave the name empty.
+
+![DecisionTableOutput]({% image_path m2p1i19_DecisionTableOutput.png %})}
+
+- Click on the Price Tolerance cell (top cell of the table), and set the data type to number
+
+![BKM_Output]({% image_path m2p1i20_BKM_Output.png %})}
+
+- Implement the first row of the decision table as follows
+
+![DT_FirstRow]({% image_path m2p1i21_DT_FirstRow.png %})}
+
+- Now click the validate button in the upper right menu
+
+![ValidateButton]({% image_path m2p1i22_ValidateButton.png %})}
+
+- Note that the modeler detects a gap in the rules you specified in the table because one of the possible values of the enumerator Urgency is missing, i.e. you need to define a rule for the value “low”
+
+![ValidateError]({% image_path m2p1i23_ValidateError.png %})}
+
+- Define the second rule in the decision table as follows and save your model
+- To add a rule, right click on the Decision table and click on insert below
+
+
+
