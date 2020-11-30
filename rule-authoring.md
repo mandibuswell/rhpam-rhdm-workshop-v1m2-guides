@@ -172,3 +172,20 @@ Remember to save your progress
 - Drag a **DMN Decision** node to the canvas, and name it Approve
 
 ![ApproveDecisionNode]({% image_path m2p1i25_ApproveDecisionNode.png %})}
+
+- Connect the **Order Information** input and the **Price Tolerance** business knowledge model node to the **Approve** decision node.
+
+![ConnectDMNModel]({% image_path m2p1i26_ConnectDMNModel.png %})}
+
+- Select the **Approve** decision node and click on the **Edit** button.
+- Click on **Select Expression**, and set the logic type to **Literal Expression**.
+
+![DecisionLiteralExpression]({% image_path m2p1i27_DecisionLiteralExpression.png %})}
+
+- Click on the **Approve** cell (top cell of the table), and set the data type to **boolean**.
+- Enter the following expression:
+`Order Information.supplierPrice < Price Tolerance(Order Information) * Order Information.targetPrice`
+
+
+
+
