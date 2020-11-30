@@ -2,19 +2,7 @@ config:
     renderer: markdown
 
 modules:
-  intro:
-    name: Introduction
-  use-case-overview:
-    name: Use Case Introduction
-  business-model:
-    name: Business Object Model
-  decisions-authoring:
-    name: Authoring Business Rules and Decisions
-  decisions-service:
-    name: Decisions as a Service
-  test-decision-service:
-    name: Testing a Decision Service
-  execute-decision-service:
-    name: Executing a Decision Service
+  rule-authoring:
+    name: Rule Authoring
   finish:
     name: Conclusion
