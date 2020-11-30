@@ -153,7 +153,22 @@ A Business Knowledge Model element (BKM) represents a reusable piece of decision
 ![ValidateError]({% image_path m2p1i23_ValidateError.png %})}
 
 - Define the second rule in the decision table as follows and save your model
-- To add a rule, right click on the Decision table and click on insert below
+- To add a rule, right click on the Decision table and click on **insert below**
 
 
+![FinalDecisionTable]({% image_path m2p1i24_FinalDecisionTable.png %})}
 
+
+---
+![Save]({% image_path m0_save.png %}){:align="left"} 
+
+Remember to save your progress 
+
+---
+
+### 2.1.4 Create Approve Decision Node
+
+- Navigate back to the model by clicking on the **Back to order-approval** link at the top-left of the editor.
+- Drag a **DMN Decision** node to the canvas, and name it Approve
+
+![ApproveDecisionNode]({% image_path m2p1i25_ApproveDecisionNode.png %})}
