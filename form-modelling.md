@@ -95,7 +95,8 @@ What remains is modleing the forms for the **Prepare Offer** and **Manual Approv
 ![ImportPrepareOfferForm]({% image_path m2p3i15_ImportPrepareOfferForm.png %})
 
 - Save your form
-- Repeat the same steps for the three remaing forms
+- Repeat the same steps for the three remaining forms
+- Note that the form name should be the same as the file name
 - Once your done, the implementation of our process is complete. It’s now time to deploy and run our process
 
 
