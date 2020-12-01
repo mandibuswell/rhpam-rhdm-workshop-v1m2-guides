@@ -33,4 +33,5 @@ modules:
   - test-scenarios
   - form-modelling
   - process-run
+  - correcting_errors
   - finish
