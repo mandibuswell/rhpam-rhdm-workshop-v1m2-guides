@@ -31,4 +31,5 @@ modules:
   activate:
   - rule-authoring
   - test-scenarios
+  - form-modelling
   - finish
