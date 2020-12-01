@@ -1,3 +1,3 @@
 # Conclusion
 
-Congratulations you reached the end of this module! In this scenario you could experience how to author, test, package, deploy and execute some types of business assets that can be used on the automation of the decision making in your Credit Card Dispute process.
+Congratulations you reached the end of this module! In this module you learned how to author your rules, model your forms, deploy and execute your process. We hope the tools we shared with you today gave you some ideas on how to automate the decision making and processes in your organisation.
