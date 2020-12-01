@@ -8,5 +8,7 @@ modules:
     name: Test Scenarios
   form-modelling:
     name: Form Modelling
+  process-run:
+    name: Deploy and Run the Process
   finish:
     name: Conclusion
