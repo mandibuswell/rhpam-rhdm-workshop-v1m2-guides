@@ -18,12 +18,12 @@ In this lab we will show both techniques.
 - And **com_my_space_procurement_process_OrderInfo** which is modeled after the fields of the OrderInfo Object
 - In fact **RequestOffer-taskform** uses this form internally to read and write the OrederInfo data object
 - Click on the **RequestOffer-taskform** and let's modify this form a bit
-- Click on the Kebabs icon to the right of the Outputs field and click on **Remove**
+- Click on the Kebab icon to the right of the Outputs field and click on **Remove**
 
 ![RemoveOutput]({% image_path m2p3i6_RemoveOutput.png %})
 
 - Navigate back to the **procurement-process** project and this time click on the **com_my_space_procurement_process_OrderInfo**
-- Click on the Kebabs icon next to the **Item Name** field and click **edit**
+- Click on the Kebab icon next to the **Item Name** field and click **edit**
 - Configure this field as follows
 - Click the +OK button when done
 
@@ -35,7 +35,7 @@ In this lab we will show both techniques.
 
 ![UrgencyField]({% image_path m2p3i7_UrgencyField.png %})
 
-- Now click on the Kebabs icon to the right of the **Supplier Price** field and click on **Remove**
+- Now click on the Kebab icon to the right of the **Supplier Price** field and click on **Remove**
 - Your form should like this when your done
 
 ![OrderInfoRequestOffer]({% image_path m2p3i8_OrderInfoRequestOffer.png %})
