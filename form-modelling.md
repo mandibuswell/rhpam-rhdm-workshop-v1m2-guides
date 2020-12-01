@@ -60,6 +60,7 @@ Now lets create a form from scratch
 - Enter the following URL in the **Image:** field
 `https://static.redhat.com/libs/redhat/brand-assets/latest/corp/logo.svg`
 - **Alignment**: Default 
+- Remove the text "Add your HTML here..."
 - Click the **OK** button
 
 ![ImageDialog]({% image_path m2p3i11_ImageDialog.png %})
