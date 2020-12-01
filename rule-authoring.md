@@ -12,7 +12,7 @@ Our Procurement process contains a Business Rule Task, but we have not yet defin
 
 ![DMNNewDialog]({% image_path m2p1i2_DMNNewDialog.png %})
 
-In the DMN editor, open the property-panel on the right-side of the screen and set the Namespace property to: http://www.redhat.com/pam-workshop/procurement-process-dmn
+- In the DMN editor, open the property-panel on the right-side of the screen and set the Namespace property to: `http://www.redhat.com/pam-workshop/procurement-process-dmn`
 
 ![NameSpace]({% image_path m2p1i3_NameSpace.png %})
 
