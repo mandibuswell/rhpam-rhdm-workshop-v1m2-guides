@@ -184,7 +184,33 @@ Remember to save your progress
 
 - Click on the **Approve** cell (top cell of the table), and set the data type to **boolean**.
 - Enter the following expression:
+
 `Order Information.supplierPrice < Price Tolerance(Order Information) * Order Information.targetPrice`
+
+![RuleExpression]({% image_path m2p1i28_RuleExpression.png %})}
+
+- Navigate back to the model by clicking on the **Back to order-approval** link at the top-left of the editor.
+- Our DMN model is now complete. Make sure to save your model.
+- With our DMN model implemented, we can now revisit our Business Rules Task in our BPMN2 model. 
+- Open the **Project Explorer** to the left of the screen
+
+![ProjectExplorer]({% image_path m2p1i29_ProjectExplorer.png %})}
+
+- Expand the **Business Processes** section and click on OrderAsset
+
+![BuinssProcessOrderAsset]({% image_path m2p1i30_BuinssProcessOrderAsset.png %})}
+
+- Open the Auto Approval node Diagram Properties 
+- Expand Implementation/Execution section and set the Namespace field to: `http://www.redhat.com/pam-workshop/procurement-process-dmn`
+- DMN Model Name: **order-approval**
+
+
+---
+![Save]({% image_path m0_save.png %}){:align="left"} 
+
+Remember to save your progress 
+
+---
 
 
 
