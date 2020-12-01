@@ -204,12 +204,10 @@ Remember to save your progress
 - Expand Implementation/Execution section and set the Namespace field to: `http://www.redhat.com/pam-workshop/procurement-process-dmn`
 - DMN Model Name: **order-approval**
 
-
 ---
-![Save]({% image_path m0_save.png %}){:align="left"} 
+![Save]({% image_path m0_save.png %}){:align="left"}
 
-Remember to save your progress 
-
+Remember to save.
 ---
 
 
