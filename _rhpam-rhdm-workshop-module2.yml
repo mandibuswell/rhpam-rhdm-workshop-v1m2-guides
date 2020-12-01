@@ -32,4 +32,5 @@ modules:
   - rule-authoring
   - test-scenarios
   - form-modelling
+  - process-run
   - finish
