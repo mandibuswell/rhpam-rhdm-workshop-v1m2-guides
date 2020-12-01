@@ -2,7 +2,7 @@
 
 In this section we are going to create the process start and user-task forms. There are two techniques to generate forms in Red Hat Process Automation Manager
 - We could simply generate these forms with the click of a button, which gives us some standard forms based on the process and task data.
-- Or we could use  the Form Modeler tool which allows us to design these forms to our specific needs.
+- Or we could use the Form Modeler tool which allows us to design these forms to our specific needs.
 In this lab we will show both techniques. 
 
 - Let’s start by modeling the form that the **Purchasing Manager** will use to request an asset e.g. laptop
@@ -98,6 +98,12 @@ What remains is modleing the forms for the **Prepare Offer** and **Manual Approv
 - Repeat the same steps for the three remaining forms
 - Note that the form name should be the same as the file name
 - Once your done, the implementation of our process is complete. It’s now time to deploy and run our process
+
+---
+![Save]({% image_path m0_save.png %}){:align="left"}
+
+Remember to save.
+---
 
 
 
