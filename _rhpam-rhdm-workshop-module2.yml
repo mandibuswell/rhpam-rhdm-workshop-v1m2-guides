@@ -30,4 +30,5 @@ vars:
 modules:
   activate:
   - rule-authoring
+  - test-scenarios
   - finish
