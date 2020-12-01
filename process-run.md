@@ -117,6 +117,10 @@ In this section, you will execute the process deployed on the Process Execution 
 
 - Run a couple more process instances with different values to test, for example, the functionality of the Automated Approval Rules.
 
+---
+![Save]({% image_path m0_save.png %}){:align="left"}
 
+Remember to save.
+---
 
 
