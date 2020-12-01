@@ -4,5 +4,7 @@ config:
 modules:
   rule-authoring:
     name: Rule Authoring
+  test-scenarios:
+    name: Test Scenarios
   finish:
     name: Conclusion
