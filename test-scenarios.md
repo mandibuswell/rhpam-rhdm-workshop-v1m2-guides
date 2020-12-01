@@ -40,4 +40,8 @@ Note that the Test Scenario editor has already detected the inputs and output of
 ![CoverageReport]({% image_path m2p2i5_CoverageReport.png %})
 
 
+---
+![Save]({% image_path m0_save.png %}){:align="left"}
 
+Remember to save.
+---
