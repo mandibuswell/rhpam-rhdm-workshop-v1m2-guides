@@ -6,5 +6,7 @@ modules:
     name: Rule Authoring
   test-scenarios:
     name: Test Scenarios
+  form-modelling:
+    name: Form Modelling
   finish:
     name: Conclusion
