@@ -51,10 +51,13 @@ In this lab we will show both techniques.
 - In the **Create new Form** dialog
 - Select on **OrderAsset** in the **Select Proces:s** drop down list
 - And then select **Start Process Form** in the **Select Form:** drop down list
-- Keep the Form name that is generated for you and click the **OK** button
+- Keep the Form name that is generated for you and click the **+OK** button
 
 ![StartForm]({% image_path m2p3i9_StartForm.png %})
 - In the **Form Modeler** expand the **Form Controls** sections to the left
+
+![HTMLControl]({% image_path m2p3i16_HTMLControl.png %})
+
 - Drag an HTML control to the canvas
 - Click on the **Insert Image** icon
 
