@@ -3,7 +3,7 @@
 
 During process instance execution, a lot of things can go wrong. Like for example users might fill in incorrect data, we will now explore how we can manually change the process to another state by restarting an already completed User Task. 
 
-- To test this we want to complete the Prepare Offer task in such a way that the order is not automatically approved and the process proceeds to the Approve User Task 
+- To test this, we want to complete the Prepare Offer task in such a way that the order is not automatically approved and the process proceeds to the Approve User Task (like we did in the previous section)
 
 - Start a new process instance of our Order Management process.
 - Navigate to Menu → Manage → Process Definitions. 
@@ -32,13 +32,15 @@ During process instance execution, a lot of things can go wrong. Like for exampl
 
 ![PrepareOfferTriggered]({% image_path m2p7i2_PrepareOfferTriggered.png %})
 
-- Although we have re-activated the **Prepare Offer** node, we have not yet de-activated the **Manual Approval** task. Click on the active **Manual Approval** task and expand the Node Instances section in the Node Actions panel. Click on the kebab icon of the active **Manual Approval** instance and click on Cancel
+- Although we have re-activated the **Prepare Offer** node, we have not yet de-activated the **Manual Approval** task. 
+- Click on the active **Manual Approval** task and expand the **Node Instances** section in the Node Actions panel. 
+- Click on the kebab icon of the active **Manual Approval** instance and click on **Cancel**
 
 ![CancelManualApproval]({% image_path m2p7i3_CancelManualApproval.png %})
 
 - Navigate to your **Task Inbox**. Observe that the **Manual Approval** user task is not there, instead the **Prepare Offer** task is re-assigned.
 - Open the **Prepare Offer** task
-- Click on the **Start** button, this time provide input the will set the process to auto-approve the offer
+- Click on the **Start** button, this time provide input that will set the process to auto-approve the offer
     - Supplier Price = 100
 - Click the **Complete** button
 - Navigate to Menu-> Manage ->Process Instance
