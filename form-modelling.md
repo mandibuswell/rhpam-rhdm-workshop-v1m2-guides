@@ -2,7 +2,7 @@
 
 In this section we are going to create the process start and user-task forms. There are two techniques to generate forms in Red Hat Process Automation Manager
 - We could simply generate these forms with the click of a button, which gives us some standard forms based on the process and task data.
-- Or we could use  the Form Modeler tool which allows us to design these forms to our specific needs.
+- Or we could use the Form Modeler tool which allows us to design these forms to our specific needs.
 In this lab we will show both techniques. 
 
 - Let’s start by modeling the form that the **Purchasing Manager** will use to request an asset e.g. laptop
@@ -10,13 +10,13 @@ In this lab we will show both techniques.
 - Use the **breadcrumb navigator** at the top-left of the screen to navigate back to our **procurement-process** project
 - Click on the **OrderAsset** buinsess process
 - In the **OrderAsset** process click on the **Request Offer** user task
-- Now clcik on the **Generate Task Form** to the top left of the task
+- Now click on the **Generate Task Form** to the top left of the task
 ![GenerateTaskForm]({% image_path m2p3i5_GenerateTaskForm.png %})
-- Navigate back to the **procurement-process** project and filter the assests by selecting **Form** from the drop down list
+- Navigate back to the **procurement-process** project and filter the assets by selecting **Form** from the drop down list
 - Note that two forms were created 
 - **RequestOffer-taskform** that will be used by users to interact with the **Request Offer** task
 - And **com_my_space_procurement_process_OrderInfo** which is modeled after the fields of the OrderInfo Object
-- In fact **RequestOffer-taskform** uses this form internally to read and write the OrederInfo data object
+- In fact **RequestOffer-taskform** uses this form internally to read and write the OrderInfo data object
 - Click on the **RequestOffer-taskform** and let's modify this form a bit
 - Click on the Kebab icon to the right of the Outputs field and click on **Remove**
 
@@ -98,6 +98,12 @@ What remains is modleing the forms for the **Prepare Offer** and **Manual Approv
 - Repeat the same steps for the three remaining forms
 - Note that the form name should be the same as the file name
 - Once your done, the implementation of our process is complete. It’s now time to deploy and run our process
+
+---
+![Save]({% image_path m0_save.png %}){:align="left"}
+
+Remember to save.
+---
 
 
 
