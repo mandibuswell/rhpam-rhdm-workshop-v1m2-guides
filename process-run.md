@@ -3,9 +3,9 @@
 
 ### 2.4.1 Deply the process
 
-With our Order Management project’s process, decisions and forms completed, we can now package our project in a Deployment Unit (KJAR) and deploy it on the Execution Server. To do this:
-- Go back to our project’s Library View, by clicking on the procurement-process link in the breadcrumb navigation in the upper-left of the screen.
-- Click on the Deploy button in the upper-right corner of the screen. This will package our project in a Deployment Unit called KJAR and deploy it onto the Execution Server (KIE-Server).
+- With our process, rules and forms completed, we can now package our project and deploy it on the Execution Server. To do this:
+- Go back to our project’s Library View, by clicking on the **procurement-process** link in the breadcrumb navigation in the upper-left of the screen.
+- Click on the **Deploy** button in the upper-right corner of the screen. This will package our project in a Deployment Unit called KJAR and deploy it onto the Execution Server (KIE-Server).
 
 ![DeployProces]({% image_path m2p4_DeployProcess.png %})
 
@@ -15,8 +15,9 @@ With our Order Management project’s process, decisions and forms completed, we
 
 ### 2.4.2 Run the process
 
-In this section, you will execute the process deployed on the Process Execution Server via the Business Central workbench
+- In this section, you will execute the process deployed on the Process Execution Server via the Business Central workbench
 - Navigate to Menu → Manage → Process Definitions. 
+
 ![ProcessDef]({% image_path m2p6_ProcessDef.png %})
 
 - If everything is correct, the order-management process will be listed. 
@@ -55,20 +56,20 @@ In this section, you will execute the process deployed on the Process Execution 
 
 - Click on the **Start** button to start working on the task. 
 - Fill in the request form as follows:
-      - Item name: MackBook Pro
-      - Urgency: high
-      - Target Price: 100
-      - Supplier Name: JB HiFi
+- **Item name**: MackBook Pro
+- **Urgency**: high
+- **Target Price**: 100
+- **Supplier Name**: JB HiFi
 - Then click the Complete button  
 
 ![FilledRequestOfferTask]({% image_path m2p6i9_FilledRequestOfferTask.png %})
 
 - Navigate to Menu-> Manage ->Process Instance
-- Click on the orderAsset process instance
+- Click on the **OrderAsset** process instance
 
 ![OrderAssetProcessInstance]({% image_path m2p6i10_OrderAssetProcessInstance.png %})
 
-- In the Process Instance scree, click on the **Diagram** tab
+- In the Process Instance screen, click on the **Diagram** tab
 - The process has now progressed to the **Prepare Order** task node. 
 
 ![ProcessProgressToPrepareOffer]({% image_path m2p6i11_ProcessProgressToPrepareOffer.png %})
@@ -99,7 +100,8 @@ In this section, you will execute the process deployed on the Process Execution 
 ![ManualApprovalTask]({% image_path m2p6i16_ManualApprovalTask.png %})
 
 - Click on the Manual Approve task in your inbox, then click the **Start** button
-- Check the Approved field and then click the **Complete** button
+- Check the Approved field 
+- Click the **Complete** button
 
 ![ManualApprovalComplete]({% image_path m2p6i17_ManualApprovalComplete.png %})
 
@@ -117,10 +119,5 @@ In this section, you will execute the process deployed on the Process Execution 
 
 - Run a couple more process instances with different values to test, for example, the functionality of the Automated Approval Rules.
 
----
-![Save]({% image_path m0_save.png %}){:align="left"}
-
-Remember to save.
----
 
 
