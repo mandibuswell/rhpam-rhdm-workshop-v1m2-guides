@@ -86,15 +86,15 @@ In this lab we will show both techniques.
 What remains is modeling the forms for the **Prepare Offer** and **Manual Approval** tasks, this is very similar to what you did for the **Request Offer** task. So instead of modeling them from scratch you can download those forms and import them directly into your project
 
 - Download the follwing four files
-    - [OrderForm-PrepareOffer.frm](https://drive.google.com/file/d/1fWDsDTSobHVtRiZsW5cVCnGRhqA3xmuF/view?usp=sharing) 
-    - OrderForm-ManualApproval.frm
-    - PrepareOffer-taskform.frm
-    - ApproveOffer-taskform.frm
+    - [OrderForm-PrepareOffer](https://drive.google.com/file/d/1fWDsDTSobHVtRiZsW5cVCnGRhqA3xmuF/view?usp=sharing) 
+    - [OrderForm-ManualApproval](https://drive.google.com/file/d/1Xh1dnih2mZ00DRWsQxlAtxSHLQreqR_5/view?usp=sharing) 
+    - [PrepareOffer-taskform](https://drive.google.com/file/d/1OFjHxFm39VptzUWqR-bWR-9IxyDGkO44/view?usp=sharing)
+    - [ApproveOffer-taskform](https://drive.google.com/file/d/1MtjmYxvMV6Q6B3qlO5ARUg-TJndOHmCu/view?usp=sharing)
 
 - Navigate back to the **procurement-process** project, click the **Import Asset** button
 - Select the **Choose File** button, below the **Please select a file to upload** field
 
-![SelectAFile]({% image_path m2p3i13_m2p3i14_SelectAFile.png %})
+![SelectAFile]({% image_path m2p3i14_SelectAFile.png %})
 
 - Select the OrderForm-PrepareOffer.frm from the path you download the file, then click the **Open** button
 - Provide the name **OrderForm-PrepareOffer** in the **Import Asset** field
