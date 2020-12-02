@@ -105,6 +105,7 @@ What remains is modeling the forms for the **Prepare Offer** and **Manual Approv
 - Save your form
 - Repeat the same steps for the three remaining forms
 - Note that the form name (Import Asset field) should be the same as the file name
+- Save each form after it is loaded in your **Form Modeler**
 - Once your done, the implementation of our process is complete. It’s now time to deploy and run our process
 
 ---
