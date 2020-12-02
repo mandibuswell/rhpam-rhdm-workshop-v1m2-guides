@@ -64,15 +64,18 @@ In this lab we will show both techniques.
 ![InsertImage]({% image_path m2p3i10_InsertImage.png %})
 - Enter the following URL in the **Image:** field
 `https://static.redhat.com/libs/redhat/brand-assets/latest/corp/logo.svg`
+
 - **Alignment**: Default 
-- Remove the text "Add your HTML here..."
+- Remove the text "Add your HTML here..." at the bottom
 - Click the **OK** button
 
 ![ImageDialog]({% image_path m2p3i11_ImageDialog.png %})
 
-- Drag another HTML control to the canvas
+- Drag another HTML control to the canvas, in the white area below the image HTML you just created
 - Type "To start the procurement process click on the Submit button"
-- Modify your text format to H3 + Bold and click the **OK** button
+- Highlight the text
+- Modify your text format to H3 + Bold 
+- Click the **OK** button
 
 ![TextDialog]({% image_path m2p3i12_TextDialog.png %})
 
@@ -80,10 +83,10 @@ In this lab we will show both techniques.
 
 ![FinishedStartForm]({% image_path m2p3i13_FinishedStartForm.png %})
 
-What remains is modleing the forms for the **Prepare Offer** and **Manual Approval** tasks, this is very similar to waht you did for the **Request Offer** task so instead of modeling them from scratch you can download those forms and import them directly into your project
+What remains is modeling the forms for the **Prepare Offer** and **Manual Approval** tasks, this is very similar to what you did for the **Request Offer** task. So instead of modeling them from scratch you can download those forms and import them directly into your project
 
 - Download the follwing four files
-    - OrderForm-PrepareOffer.frm
+    - [OrderForm-PrepareOffer.frm](https://drive.google.com/file/d/1fWDsDTSobHVtRiZsW5cVCnGRhqA3xmuF/view?usp=sharing) 
     - OrderForm-ManualApproval.frm
     - PrepareOffer-taskform.frm
     - ApproveOffer-taskform.frm
