@@ -85,7 +85,7 @@ In this lab we will show both techniques.
 
 What remains is modeling the forms for the **Prepare Offer** and **Manual Approval** tasks, this is very similar to what you did for the **Request Offer** task. So instead of modeling them from scratch you can download those forms and import them directly into your project
 
-- Download the follwing four files
+- Download the following four files
     - [OrderForm-PrepareOffer](https://drive.google.com/file/d/1fWDsDTSobHVtRiZsW5cVCnGRhqA3xmuF/view?usp=sharing) 
     - [OrderForm-ManualApproval](https://drive.google.com/file/d/1Xh1dnih2mZ00DRWsQxlAtxSHLQreqR_5/view?usp=sharing) 
     - [PrepareOffer-taskform](https://drive.google.com/file/d/1OFjHxFm39VptzUWqR-bWR-9IxyDGkO44/view?usp=sharing)
@@ -104,7 +104,7 @@ What remains is modeling the forms for the **Prepare Offer** and **Manual Approv
 
 - Save your form
 - Repeat the same steps for the three remaining forms
-- Note that the form name should be the same as the file name
+- Note that the form name (Import Asset field) should be the same as the file name
 - Once your done, the implementation of our process is complete. It’s now time to deploy and run our process
 
 ---
