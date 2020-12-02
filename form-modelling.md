@@ -1,4 +1,4 @@
-# Form Modelling (25 mins)
+# Form Modelling (15 mins)
 
 In this section we are going to create the process start and user-task forms. There are two techniques to generate forms in Red Hat Process Automation Manager
 - We could simply generate these forms with the click of a button, which gives us some standard forms based on the process and task data.
@@ -15,23 +15,24 @@ In this lab we will show both techniques.
 - Navigate back to the **procurement-process** project and filter the assets by selecting **Form** from the drop down list
 - Note that two forms were created 
 - **RequestOffer-taskform** that will be used by users to interact with the **Request Offer** task
-- And **com_my_space_procurement_process_OrderInfo** which is modeled after the fields of the OrderInfo Object
+- And **com_my_space_procurement_process_OrderInfo** (this is what happens when you let a system name your forms!) which is modeled after the fields of the OrderInfo Object
 - In fact **RequestOffer-taskform** uses this form internally to read and write the OrderInfo data object
 - Click on the **RequestOffer-taskform** and let's modify this form a bit
 - Click on the Kebab icon to the right of the Outputs field and click on **Remove**
+- Save your form
 
 ![RemoveOutput]({% image_path m2p3i6_RemoveOutput.png %})
 
-- Navigate back to the **procurement-process** project and this time click on the **com_my_space_procurement_process_OrderInfo**
+- Navigate back to the **procurement-process** project and this time click on the **com_my_space_procurement_process_OrderInfo** form
 - Click on the Kebab icon next to the **Item Name** field and click **edit**
 - Configure this field as follows
-- Click the +OK button when done
+- Click the **+OK** button when done
 
 ![ItemField]({% image_path m2p3i4_ItemField.png %})
 
 - Click on the **Urgency** field and drag it next to **Item Name** field
 - Click on the **Edit** button for this field and configure it as follows
-- Click the +OK button when done
+- Click the **+OK** button when done
 
 ![UrgencyField]({% image_path m2p3i7_UrgencyField.png %})
 
@@ -40,16 +41,17 @@ In this lab we will show both techniques.
 
 ![OrderInfoRequestOffer]({% image_path m2p3i8_OrderInfoRequestOffer.png %})
 
-- Save your form and navigate back to the **procurement-process** project 
-- Click on the **RequestOffer-taskform**, note that the form has been renedered according to changes you made in the **com_my_space_procurement_process_OrderInfo** form
+- Save your form 
+- Navigate back to the **procurement-process** project 
 
-Now lets create a form from scratch
-- Navigate back to the **procurement-process** project, click the **Add Asset** button
+- Now lets create a form from scratch
+- Navigate back to the **procurement-process** project
+- Click the **Add Asset** button
 - Select the Form tile
 - In the **Create new Form** dialog
 - Select on **OrderAsset** in the **Select Proces:s** drop down list
 - And then select **Start Process Form** in the **Select Form:** drop down list
-- Keep the Form name that is generated for you and clikc the **OK** button
+- Keep the Form name that is generated for you and click the **OK** button
 
 ![StartForm]({% image_path m2p3i9_StartForm.png %})
 - In the **Form Modeler** expand the **Form Controls** sections to the left
