@@ -91,12 +91,13 @@ What remains is modeling the forms for the **Prepare Offer** and **Manual Approv
     - [PrepareOffer-taskform](https://drive.google.com/file/d/1OFjHxFm39VptzUWqR-bWR-9IxyDGkO44/view?usp=sharing)
     - [ApproveOffer-taskform](https://drive.google.com/file/d/1MtjmYxvMV6Q6B3qlO5ARUg-TJndOHmCu/view?usp=sharing)
 
-- Navigate back to the **procurement-process** project, click the **Import Asset** button
+- Navigate back to the **procurement-process** project
+- Click the **Import Asset** button
 - Select the **Choose File** button, below the **Please select a file to upload** field
 
 ![SelectAFile]({% image_path m2p3i14_SelectAFile.png %})
 
-- Select the OrderForm-PrepareOffer.frm from the path you download the file, then click the **Open** button
+- Select the OrderForm-PrepareOffer.frm from the path you downloaded the file to, then click the **Open** button
 - Provide the name **OrderForm-PrepareOffer** in the **Import Asset** field
 - Click the **+OK** button
 
