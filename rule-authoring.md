@@ -71,7 +71,7 @@ Remember to save your progress
 - Navigate back to the DMN model by click on the **Model** tab
 - From the left menu, drag a **DMN input** data to the canvas
 
-![DMNInputMenu]({% image_path m2p1i11_DMNInputMenu.png %})
+![DMNInputMenu]({% image_path m2p1i60_DMNInputData.png %})
 
 - Give it the name **Order Information**, this has to be the same name as the input you provided to the **Auto Approval** node in the previous model
 
