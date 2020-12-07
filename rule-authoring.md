@@ -11,7 +11,7 @@ Our Procurement process contains a Business Rule Task, but we have not yet defin
 
 - In the **Create new DMN** dialog give the rule the name **order-approval**, and click the **+OK** button
 
-![DMNNewDialog]({% image_path m2p1i2_DMNNewDialog.png %})
+![DMNNewDialog]({% image_path m2p1i1_CreateNewDMN.png %})
 
 - In the DMN editor, open the **Properties** pane on the right-side of the screen
 - Set the Namespace property to: `http://www.redhat.com/pam-workshop/procurement-process-dmn`
