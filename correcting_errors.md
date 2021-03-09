@@ -47,3 +47,4 @@ During process instance execution, a lot of things can go wrong. Like for exampl
 - In the Filters list to the left, click on the Completed state
 - Click on the last OrderAsset process to rune, should be Id 2
 - Observe that the process has now accepted the offer and moved to the end event **Send to ERP**
+- Congratulations! You have now completed this workshop,  please go ahead and mark exercise 9 as complete in the googles sheet.
