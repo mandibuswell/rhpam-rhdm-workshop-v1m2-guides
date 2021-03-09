@@ -204,7 +204,7 @@ Remember to save your progress
 
 - Navigate back to the model by clicking on the **Back to order-approval** link at the top-left of the editor.
 - Our DMN model is now complete, please make sure to save your model.
-- Mark **Excerise 6 Rule Authering** as complete for user in the etherpad
+- Mark **Excerise 6 Rule Authering** as complete for user in the googles sheet.
 - We are now ready to test the rule we just created in the next exercise
 
 
