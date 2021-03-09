@@ -1,5 +1,5 @@
 
-# Deploy and Run the Process 15 mins)
+# Deploy and Run the full process (15 mins)
 
 ### 2.3.1 Create new Space
 - Using the breadcrumbs navigation, navigate back to Spaces
@@ -23,7 +23,7 @@
 
 ![SuccessMsg]({% image_path m2p5_SuccessMsg.png %})
 
-### 2.3.3 Run the complete process
+### 2.3.4 Run the complete process
 
 - In this section, you will execute the process deployed on the Process Execution Server via the Business Central workbench
 - Navigate to Menu → Manage → Process Definitions. 
