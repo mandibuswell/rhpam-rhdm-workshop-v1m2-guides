@@ -31,6 +31,6 @@ modules:
   activate:
   - rule-authoring-v2
   - test-scenarios
-  - process-run
+  - run-full-process-v2
   - correcting_errors
   - finish
