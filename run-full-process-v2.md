@@ -1,5 +1,5 @@
 
-# Deploy and Run the Process (25 mins)
+# Deploy and Run the Process 15 mins)
 
 ### 2.3.1 Create new Space
 - Using the breadcrumbs navigation, navigate back to Spaces
