@@ -6,7 +6,7 @@ modules:
     name: Exercise 6 Rule Authoring
   test-scenarios:
     name:  Exercise 7 Test Scenarios
-  process-run:
+  run-full-process-v2:
     name:  Exercise 8 Run Full Process
   correcting_errors:
     name: Exercise 9 Correcting Errors
