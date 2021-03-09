@@ -128,6 +128,5 @@
 ![m2p6i19_FinishProcess]({% image_path m2p6i19_FinishProcess.png %})
 
 - Run a couple more process instances with different values to test, for example, the functionality of the Automated Approval Rules.
-
-
+- Once you are done, please go ahead an mark this exercise as complete in the google sheet.
 
