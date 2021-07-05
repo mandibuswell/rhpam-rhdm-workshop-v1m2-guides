@@ -39,6 +39,7 @@ Note that the Test Scenario editor has already detected the inputs and output of
 
 ![CoverageReport]({% image_path m2p2i5_CoverageReport.png %})
 
+- You have now completed this exercise, please go ahead and mark it as complete in the googles sheet. 
 
 ---
 ![Save]({% image_path m0_save.png %}){:align="left"}

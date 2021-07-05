@@ -2,15 +2,13 @@ config:
     renderer: markdown
 
 modules:
-  rule-authoring:
-    name: Rule Authoring
+  rule-authoring-v2:
+    name: Exercise 6 Rule Authoring
   test-scenarios:
-    name: Test Scenarios
-  form-modelling:
-    name: Form Modelling
-  process-run:
-    name: Deploy and Run the Process
+    name:  Exercise 7 Test Scenarios
+  run-full-process-v2:
+    name:  Exercise 8 Run Full Process
   correcting_errors:
-    name: Correcting Errors
+    name: Exercise 9 Correcting Errors
   finish:
     name: Conclusion

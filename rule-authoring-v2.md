@@ -1,6 +1,6 @@
 # Rule Authoring (20 mins)
 
-Our Procurement process contains a Business Rule Task, but we have not yet defined the Decision Model that will be used in the task. In this section we will implement the automatic approval rules in the form of a DMN model.
+In this section we will implement the automatic approval rules in the form of a DMN model.
 
 - Use the breadcrumb navigator at the top-left of the screen to navigate back to our **procurement-process** project
 - Click on the blue **Add Asset** button in the top-right corner
@@ -39,8 +39,8 @@ Our Procurement process contains a Business Rule Task, but we have not yet defin
 
 - Click the **Add Constraints** link
 - Select constraint type as **Enumeration** from the drop down list
-- Click the **+Add** button and provide the value **high**, then click on the check mark
-- Once more click the **+Add** button, and provide the value **low**, then click on the check mark 
+- Provide the value **high**, then click on the check mark
+- Click the **+Add** button, and provide the value **low**, then click on the check mark 
 - Click the **OK** button
 
 ![AddConstraintsDialog]({% image_path m2p1i7_AddConstraintsDialog.png %})
@@ -73,7 +73,7 @@ Remember to save your progress
 
 ![DMNInputMenu]({% image_path m2p1i60_DMNInputData.png %})
 
-- Give it the name **Order Information**, this has to be the same name as the input you provided to the **Auto Approval** node in the previous model
+- Give it the name **Order Information**
 
 
 ---
@@ -106,6 +106,10 @@ You can change the background and font for each element in DMN, using the Backgr
 A Business Knowledge Model element (BKM) represents a reusable piece of decision logic. Typically, it is connected to a Decision element which invokes the BKM and passes on a set of inputs. The BKM, using it's internal logic, evaluates an output which is passed back to the Decision.
 
 ---
+
+- From the left menu, drag a **DMN Business Knowldge Model** element to the canvas
+- Give it the name  **Price Tolerance**
+
 
 ![BKM]({% image_path m2p1i13_BKM.png %})
 
@@ -187,10 +191,11 @@ Remember to save your progress
 ![DecisionLiteralExpression]({% image_path m2p1i27_DecisionLiteralExpression.png %})
 
 - Click on the **Approve** cell (top cell of the table), and set the data type to **boolean**.
-- Enter the following expression:
+- Click on the white cell, and enter the following expression:
 
 `Order Information.supplierPrice < Price Tolerance(Order Information) * Order Information.targetPrice`
 
+- Again feel free to resize the boxed expression
 - On the right hand side of this expression we are calling our Bussiness Knowledge Model to calculate the price tolerance, i.e. if the order is urgent we will have a tolerance of 25%
 - Let's assume that the target price is 100, then the right hand side evaluates to 125
 - The rule will then evaluate if the supplier price is less than 125 and return true or false
@@ -199,24 +204,9 @@ Remember to save your progress
 
 - Navigate back to the model by clicking on the **Back to order-approval** link at the top-left of the editor.
 - Our DMN model is now complete, please make sure to save your model.
-- With our DMN model implemented, we can now revisit our Business Rules Task in our BPMN2 model. 
-- Open the **Project Explorer** to the left of the screen
+- Mark **Excerise 6 Rule Authering** as complete for user in the googles sheet.
+- We are now ready to test the rule we just created in the next exercise
 
-![ProjectExplorer]({% image_path m2p1i29_ProjectExplorer.png %})
-
-- Expand the **Business Processes** section and click on OrderAsset
-
-![BuinssProcessOrderAsset]({% image_path m2p1i30_BuinssProcessOrderAsset.png %})
-
-- Open the Auto Approval node Diagram Properties 
-- Expand Implementation/Execution section and set the Namespace field to: `http://www.redhat.com/pam-workshop/procurement-process-dmn`
-- DMN Model Name: **order-approval**
-
----
-![Save]({% image_path m0_save.png %}){:align="left"}
-
-Remember to save.
----
 
 
 

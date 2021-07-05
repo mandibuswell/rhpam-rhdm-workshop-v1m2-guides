@@ -29,9 +29,8 @@ vars:
 
 modules:
   activate:
-  - rule-authoring
+  - rule-authoring-v2
   - test-scenarios
-  - form-modelling
-  - process-run
+  - run-full-process-v2
   - correcting_errors
   - finish
